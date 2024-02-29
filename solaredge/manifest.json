@@ -1,0 +1,18 @@
+{
+  "domain": "solaredge",
+  "version": "0.0.1",
+  "name": "SolarEdge",
+  "codeowners": ["@frenck","vhupet"],
+  "config_flow": true,
+  "dhcp": [
+    {
+      "hostname": "target",
+      "macaddress": "002702*"
+    }
+  ],
+  "documentation": "https://www.home-assistant.io/integrations/solaredge",
+  "integration_type": "device",
+  "iot_class": "cloud_polling",
+  "loggers": ["solaredge"],
+  "requirements": ["stringcase==1.2.0"]
+}
